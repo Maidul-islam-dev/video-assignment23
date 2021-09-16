@@ -1,0 +1,242 @@
+/* custom css */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    font-family: "Work Sans", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.sec-bg {
+    background-color: #eff2fc;
+}
+
+/* header css start */
+.header{}
+.header .menu{
+    background: #007E00;
+}
+.header .menu ul{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.header .menu ul li{
+    list-style: none;
+    flex-grow: 1;
+}
+.header .menu ul li a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-left: 1px solid #ddd;
+}
+.header .menu ul li:last-child a{
+    border-right: 1px solid #ddd ;
+}
+
+.header .menu ul li a:hover{
+    background: #015301;
+}
+/* header css start */
+
+
+/* flex-practice css start  */
+.design-part{
+    background: #fafafa;
+}
+.design-part .design-inner{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+.design-part .design-inner p{
+    border: 1px solid red;
+    padding: 20px ;
+}
+.design-part p{
+    background: rgb(175, 224, 175);
+    transition: .3s;
+}
+.design-part p:hover{
+    background: rgb(118, 153, 118);
+}
+.design-two{
+    display: flex;
+}
+.design-two p{
+    border: 1px solid #007E00;
+    flex-grow: 1;
+    display: flex;
+    flex-basis: 30%;
+    padding: 20px;
+}
+.design-two .first-p{
+    flex-basis: 70%;
+}
+.disign-three {
+    display: flex;
+
+}
+.disign-three p{
+    padding: 20px;
+    border: 1px solid red;
+    flex-basis: 30%;
+}
+.disign-three .second-p{
+    display: flex;
+    flex-basis: 70%;
+}
+
+.wrap-design{
+    display: flex;
+    justify-content: space-around;
+}
+.wrap-div {
+    width: 50%;
+    border: 1px solid #007E00;
+    height: 100%;
+}
+.wrap-div ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+.wrap-div ul li{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    list-style: none;
+    padding: 10px 20px;
+    border: 1px solid red;
+    background: #007E00;
+    color: #fff;
+
+}
+.wrap-div ul li:hover{
+    background: #003f00;
+}
+
+.center-div {
+	height: 406px;
+	width: 50%;
+	border: 1px solid #007E00;
+	margin: auto;
+	margin-top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #ddd;
+}
+.center-div h2{
+    height: 150px;
+    width: 150px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: .3s;
+}
+.center-div h2:hover{
+    transform: scale(1.5);
+    background: #008000;
+    border-radius: 10px;
+}
+
+/* flex-practice css End  */
+
+/* my design css start */
+
+.my-design .bang-bg{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin-top: 20px;
+    background: #30829b;
+    border-radius: 10px;
+    
+}
+.my-design .bang-bg div{
+    padding: 40px;
+    margin: 10px;
+    height: 220px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 50%;
+    flex-grow: 1;
+
+}
+.my-design .bang-bg div img{
+    transition: .4s;
+}
+
+.my-design .bang-bg div:hover img{
+    transform: translateY(-30px);
+
+}
+.my-design .bang-bg .div1{
+    background: #288A2B;
+}
+.my-design .bang-bg .div2{
+    background: #b8b803;
+}
+.my-design .bang-bg .div3{
+    background: #ca1e1b;
+}
+.my-design .bang-bg .div4{
+    background: green;
+}
+.my-design .bang-bg .div5{
+    background: #b8b803;
+}
+.my-design .bang-bg .div6{
+    background: #ca1e1b;
+}
+.my-design .bang-bg .div7{
+    background: green;
+}
+.my-design .bang-bg .div8{
+    background: #b8b803;
+}
+.my-design .bang-bg .div9{
+    background: #ca1e1b;
+}
+.my-design .bang-bg .div10{
+    background: green;
+}
+.my-design .bang-bg .div11{
+    background: #b8b803;
+}
+.my-design .bang-bg .div12{
+    background: #ca1e1b;
+}
+.my-design .bang-bg .div13{
+    background: green;
+}
+.my-design .bang-bg .div14{
+    background: #b8b803;
+}
+.my-design .bang-bg .div15{
+    background: #ca1e1b;
+}
+.my-design .bang-bg .div16{
+    background: green;
+}
+
+/* my design css end */
